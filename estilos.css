@@ -1,0 +1,130 @@
+body{
+    font-family: Lucida Sans Unicode;
+    background-color: gainsboro;
+}
+
+.all{
+    width: 900px;
+    background-color: white;
+    border-radius:10px;
+    margin: 0 auto;
+    border: 1px solid rgb(202, 202, 202);
+}
+
+/*Header*/
+/*A totes les pàgines ha de ser igual*/
+
+.all h1{
+    text-align: center;
+    letter-spacing: 5.5px;
+    margin: -2px;
+    font-size: 28px;
+    color: green;
+}
+
+.all h1 span{
+    color: peru;
+}
+
+.all img{
+    padding-top: 10px;
+    display: block;
+    margin: auto;
+}
+
+/*Div posició pàgina*/
+/*Pel felx del menú i el contingut*/
+
+.menu_con {
+    display: flex;
+}
+
+
+/*Menú*/
+
+ul {
+    width: 85px;
+}
+
+li{
+    border: 1px solid rgb(202, 202, 202);
+    list-style-type: none;
+    margin-top: 5px;
+    margin-left: -20px;
+    text-align: center;
+    font-size: 13px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: linear-gradient(white 40%,  yellowgreen);
+}
+
+li a {
+    text-decoration: none;
+    color: grey;
+}
+
+/*Per seleccionar una de les opcions del menú*/
+
+li:hover{
+    background: linear-gradient(rgb(231, 210, 184) 40%, yellowgreen);
+    border: 1px solid gray;
+}
+
+li a:hover{
+    color: black;
+}
+
+/*Almenú queda marcada la pàgina a la que estàs*/
+
+.here {
+    background: linear-gradient(white 40%, rgb(205, 178, 144)) !important; 
+    border: 1px solid rgb(202, 202, 202) !important;
+}
+
+.here a{
+    color: black;
+}
+
+/*Div de Contingut*/
+/*De moment és igual per les dues pàgines*/
+
+.content{
+    border: 1px solid  rgb(202, 202, 202);
+    margin: 20px;
+    padding: 15px;
+    background: linear-gradient(gainsboro, white 10%, white 90%, gainsboro);
+    width: 750px;
+}
+
+.content h2{
+    font-size: 21px;
+    color: rgb(128, 171, 41);
+    margin-bottom: 1px;
+}
+
+.content p{
+    text-align: justify;
+    font-size: 14px;
+}
+
+.title{
+    border-bottom: 1px solid rgb(202, 202, 202);
+    /*padding-bottom:-20px;*/
+}
+
+.content h3{
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: -5px;
+    color: rgb(185, 147, 98);
+}
+
+/*Imatge Especies*/
+
+/*.content img{
+    border: 3px solid green;
+    margin-top: -50px;
+    margin-left: 10px;
+    padding-top: 0px;
+}*/
+
